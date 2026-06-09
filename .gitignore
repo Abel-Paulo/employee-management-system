@@ -1,0 +1,10 @@
+# Ignore all physical file uploads inside the folder
+uploads/*
+
+# Keep the uploads folder structure but keep it empty on GitHub
+!uploads/.gitkeep
+
+# Ignore local environment/IDE settings
+.vscode/
+.idea/
+Thumbs.db
